@@ -5,13 +5,13 @@
 	</head>
 	<body>
 		<script src="index-code.js"></script>
-		<p>
-			Hi!
-		</p>
-		<a href="/favorites">See Favorites</a>
+		<div class="buttons-div">
+			<button onclick="displayFavorites()">See Favorites</button>
+			<button onclick="clearFavorites()">Clear Favorites</button>
+		</div>
 		<div>
 			<span>Search for a movie!</span>
-			<input type="text" class="search-box"></input>
+			<input type="text" class="search-box">
 		</div>
 		<button onclick="search()">Search</button>
 		<ul class="results">
